@@ -1,4 +1,4 @@
-drawpage
+drawpage - A Fork from `allenhwkim/drawpage`
 ========
 
 Draw outline of your web page and disappear.
@@ -6,16 +6,16 @@ Draw outline of your web page and disappear.
 
 Inspired by [svg drawing animation](http://tympanus.net/Development/SVGDrawingAnimation/), I thought we can draw any outline of any webpage by following the paths of box models, and this is the result.
 
- * [demo for github](https://rawgit.com/allenhwkim/drawpage/master/demo/github.com-explore.html)
- * [demo for Facebook](https://rawgit.com/allenhwkim/drawpage/master/demo/facebook.html)
- * [demo for demo](https://rawgit.com/allenhwkim/drawpage/master/demo/demo1.html)
+ * [demo for github](https://rawgit.com/Thatkookooguy/drawpage/master/demo/github.com-explore.html)
+ * [demo for Facebook](https://rawgit.com/Thatkookooguy/drawpage/master/demo/facebook.html)
+ * [demo for demo](https://rawgit.com/Thatkookooguy/drawpage/master/demo/demo1.html)
 
 How to use
 ----------
 
   * To draw page every time when page loads, append the following code at the end of your page
 
-        <script src="https://rawgit.com/allenhwkim/drawpage/master/draw-page.js"></script>
+        <script src="https://rawgit.com/Thatkookooguy/drawpage/master/draw-page.js"></script>
         <script>drawPage()</script>
 
   * Or, only to test how it looks like 
@@ -25,7 +25,7 @@ How to use
 
              (function() {
                 var dp = document.createElement('script'); dp.type = 'text/javascript'; dp.async = true;
-                dp.src = 'https://rawgit.com/allenhwkim/drawpage/master/draw-page.js';
+                dp.src = 'https://rawgit.com/Thatkookooguy/drawpage/master/draw-page.js';
                 document.documentElement.appendChild(dp);
               })();
 
