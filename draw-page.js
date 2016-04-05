@@ -9,6 +9,11 @@
  */
 (function() {
   
+  /* re-enable animation for chrome */
+  SVGElement.prototype.getTransformToElement = SVGElement.prototype.getTransformToElement || function(elem) {
+    return elem.getScreenCTM().inverse().multiply(this.getScreenCTM());
+  };
+  
   /**
    * get calculated style of an element
    */
